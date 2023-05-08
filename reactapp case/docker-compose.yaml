@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  reactapp:
+    build: ./voltlines_aligassaloglu
+    container_name: voltlines_aligassaloglu
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
